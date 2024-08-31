@@ -1,0 +1,7 @@
+n=int(input("Di un numero: "))
+v= n % 2 
+
+if v==0: 
+    print("Es par")
+else:
+    print("Es impar")
