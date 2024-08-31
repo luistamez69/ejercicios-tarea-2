@@ -1,0 +1,10 @@
+cadena = input("Ingresa una cadena de texto: ")
+caracter = input("Ingresa el carácter a contar: ")
+
+if len(caracter) != 1:
+    print("Por favor, ingresa solo un carácter.")
+else:
+    conteo = cadena.count(caracter)
+
+    
+    print(f"El carácter '{caracter}' aparece {conteo} veces en la cadena.")
