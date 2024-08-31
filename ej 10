@@ -1,0 +1,6 @@
+
+cadena = input("Ingresa una cadena de texto: ")
+
+invertida = cadena[::-1]
+
+print("La cadena invertida es:", invertida)
