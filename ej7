@@ -1,0 +1,10 @@
+lista = [0,0,0,0,0]
+lista[0]=int(input("Di un numero:"))
+lista[1]=int(input("Di un numero:"))
+lista[2]=int(input("Di un numero:"))
+lista[3]=int(input("Di un numero:"))
+lista[4]=int(input("Di un numero:"))
+
+suma_total = sum(lista)
+
+print("La suma de los elementos en la lista es:", suma_total)
