@@ -1,0 +1,12 @@
+lista = [0,0,0,0,0]
+lista[0]=int(input("Di un numero:"))
+lista[1]=int(input("Di un numero:"))
+lista[2]=int(input("Di un numero:"))
+lista[3]=int(input("Di un numero:"))
+lista[4]=int(input("Di un numero:"))
+
+mayor = max(lista)
+menor = min(lista)
+
+print("El número mayor en la lista es:", mayor)
+print("El número menor en la lista es:", menor)
