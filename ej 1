@@ -1,0 +1,7 @@
+su = 0
+
+for numero in range(1, 101):
+    if numero % 2 == 0:
+        su += numero
+
+print("La suma de los pares es:", su)
